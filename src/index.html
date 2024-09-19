@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-[#252836]">
+    <section>
+        <div class="navigation bg-[#1F1D2B] w-[104px] rounded-[16px] py-[24px] px-[24px] fixed h-[100%] left-0 top-0">
+            <a class="mb-[36px] block" href="#">
+                <img src="./img/icon1.svg" alt="icon">
+            </a>
+            <a class="w-[56px] h-[56px] rounded-[8px] px-[16px] py-[16px] bg-[#EA7C69] block mb-[33px]" href="#">
+                <img src="./img/icon2.svg" alt="icon">
+            </a>
+            <a class="mb-[33px] block" href="#">
+                <img src="./img/icon3.svg" alt="icon">
+            </a>
+            <a class="mb-[32px] block" href="#">
+                <img src="./img/icon4.svg" alt="icon">
+            </a>
+            <a class="mb-[33px] block" href="#">
+                <img src="./img/icon5.svg" alt="icon">
+            </a>
+            <a class="mb-[33px] block" href="#">
+                <img src="./img/icon6.svg" alt="icon">
+            </a>
+            <a class="mb-[33px] block" href="#">
+                <img src="./img/icon7.svg" alt="icon">
+            </a>
+            <a class="block" href="#">
+                <img src="./img/icon8.svg" alt="icon">
+            </a>
+        </div>
+        <div class="container">
+            <div class="menu_block w-[900px] bg-[#252836] py-[24px] ">
+                <div class="mb-[24px] flex items-center justify-between">
+                    <div>
+                        <a class="mb-[4px]" href="#">
+                            <img src="./img/header_logo.svg" alt="logo">
+                        </a>
+                        <p class="font-normal text-[16px] leading-[140%] text-[#E0E6E9]">Tuesday, 2 Feb 2021</p>
+                    </div>
+                    <div class="flex relative">
+                        <img class="absolute top-0 translate-y-[80%] translate-x-[70%]" src="./img/search.svg" alt="icon">
+                        <input class="w-[260px] rounded-[8px] border border-[1px] border-[#393C49] bg-transparent py-[14px] pr-[14px] pl-[42px] placeholder:text-[14px] placeholder:font-normal placeholder:leading-[140%] placeholder:text-[#ABBBC2]" type="text" placeholder="Search for food, coffe, etc..">
+                    </div>
+                </div>
+                <div class="tab flex gap-[32px] pb-[13px] mb-[24px]"></div>
+                <div class="flex justify-between items-center mb-[78px]">
+                    <h2 class="font-semibold text-[20px] leading-[140%] text-[#fff]">Choose Dishes</h2>
+                    <select class="rounded-[8px] py-[14px] px-[14px] bg-[#1F1D2B] outline-none font-medium text-[14px] leading-[130%] text-[#fff]" name="select" id="select">
+                        <option value="Dine In">Dine In</option>
+                    </select>
+                </div>
+                <ul class="menu_list grid grid-cols-4 gap-x-[28px] gap-y-[70px]"></ul>
+            </div>
+        </div>
+        <div class="cart_block bg-[#1F1D2B] rounded-[8px] py-[24px] px-[24px] fixed h-[100%] w-[409px] right-0 top-0"></div>
+    </section>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
+<!-- <img src="./img/hot_dishes1.png" alt=""> -->
